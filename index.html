@@ -471,6 +471,12 @@
         color: var(--amber);
       }
 
+      .node.money {
+        top: 18%;
+        right: 22%;
+        color: #a7f3d0;
+      }
+
       .services {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -552,6 +558,10 @@
         color: var(--amber);
       }
 
+      .money-accent {
+        color: #34d399;
+      }
+
       footer {
         width: min(1120px, calc(100% - 32px));
         margin: 0 auto;
@@ -618,6 +628,11 @@
         .node.read {
           left: 8%;
         }
+
+        .node.money {
+          right: 10%;
+          top: 20%;
+        }
       }
     </style>
   </head>
@@ -681,6 +696,12 @@
                   />
                 </svg>
               </a>
+              <a class="button secondary" href="https://money.pugotilab.com">
+                Abrir Pugotimoney
+              </a>
+              <a class="button secondary" href="https://read.pugotilab.com">
+                Abrir Pugotiread
+              </a>
               <a class="button secondary" href="#servicos">Ver serviços</a>
             </nav>
           </div>
@@ -694,6 +715,7 @@
             <div class="network">
               <span class="node cloud">cloud</span>
               <span class="node cine">cine</span>
+              <span class="node money">money</span>
               <span class="node read">read</span>
               <div class="hub">
                 <svg viewBox="0 0 160 160" role="img">
@@ -757,6 +779,28 @@
             <small>cine.pugotilab.com</small>
           </a>
 
+          <a class="service" href="https://money.pugotilab.com">
+            <span class="service-top">
+              <span class="icon money-accent" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3v18m4-14.5c0-1.9-1.8-3.5-4-3.5s-4 1.6-4 3.5S9 10 12 10s4 1.6 4 3.5S14.2 17 12 17s-4-1.6-4-3.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </span>
+            <span>
+              <h2>Pugotimoney</h2>
+              <p>Controle financeiro pessoal, relatórios e acesso ao Pugotimoney.</p>
+            </span>
+            <small>money.pugotilab.com</small>
+          </a>
+
           <a class="service" href="https://read.pugotilab.com">
             <span class="service-top">
               <span class="icon read-accent" aria-hidden="true">
@@ -773,7 +817,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </span>
             <span>
-              <h2>Read</h2>
+              <h2>Pugotiread</h2>
               <p>Biblioteca digital para leitura e consulta de materiais pessoais.</p>
             </span>
             <small>read.pugotilab.com</small>
