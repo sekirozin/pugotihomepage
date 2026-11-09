@@ -1,0 +1,7 @@
+.git
+.gitignore
+BETA-1.0.md
+Dockerfile
+*.bak*
+*.backup*
+
